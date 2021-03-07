@@ -3,11 +3,10 @@
 import 'bootstrap'; // import bootstrap elements and js
 
 import '../styles/main.scss';
+import basePage from './components/basePage';
 
 const init = () => {
-  document.querySelector('#app').innerHTML = '<h1>HELLO! You are up and running!</h1>';
-  console.warn('YOU ARE UP AND RUNNING!');
-
+  basePage();
   // USE WITH FIREBASE AUTH
   // checkLoginStatus();
 };
