@@ -5,10 +5,22 @@ import bearPhoto from './images/BearWatcher.png';
 import sortingPhoto from './images/SortingHat.png';
 import petPhoto from './images/PetAdoption.png';
 import skiPhoto from './images/SkiShop.png';
+import pinterest from './images/AlmostPinterest.png';
 
 const projects = [
   {
     id: 0,
+    title: 'Almost Pinterest',
+    screenshot: pinterest,
+    altText: 'Screen shot of Almost Pinterest project',
+    description: 'App that allows a user to save nd organize sites into categories',
+    technologiesUsed: 'HTML, CSS, Javascript, Github for version control',
+    available: true,
+    url: 'https://friendly-dijkstra-f5e799.netlify.app/',
+    githubUrl: 'https://github.com/Greenfin17/ASSIGNMENT-Firebase-Pinterest'
+  },
+  {
+    id: 1,
     title: 'Almost Amazon',
     screenshot: amazonPhoto,
     altText: 'Screen shot of Almost Amazon project',
@@ -19,7 +31,7 @@ const projects = [
     githubUrl: 'https://github.com/Greenfin17/IN-CLASS-almost-amazon-template'
   },
   {
-    id: 1,
+    id: 2,
     title: 'Tamagotchi',
     screenshot: tamagotchiPhoto,
     altText: 'Screen shot of Tamagotchi project',
@@ -30,7 +42,7 @@ const projects = [
     githubUrl: 'https://github.com/Greenfin17/ASSIGNMENT-Tamagotchi'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Bear Watcher',
     screenshot: bearPhoto,
     altText: 'Screen shot of Bear Watcher project',
@@ -41,7 +53,7 @@ const projects = [
     githubUrl: 'https://github.com/Greenfin17/ASSIGNMENT-Bear-Watcher'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Sorting Hat',
     screenshot: sortingPhoto,
     altText: 'Screen shot of Sorting Hat project',
@@ -52,7 +64,7 @@ const projects = [
     githubUrl: 'https://github.com/Greenfin17/sorting-hat',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Pet Adoption',
     screenshot: petPhoto,
     altText: 'Screen shot of Pet Adoption project',
@@ -63,7 +75,7 @@ const projects = [
     githubUrl: 'https://github.com/Greenfin17/pet-adoption',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Ski Shop',
     screenshot: skiPhoto,
     altText: 'Screen shot of Ski Shop product cards',
