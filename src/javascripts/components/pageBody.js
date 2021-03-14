@@ -1,6 +1,10 @@
 // basePage.js
 
 import self from '../helpers/data/images/Self.jpg';
+import html from '../helpers/data/graphics/HTML5_Logo.svg';
+import css from '../helpers/data/graphics/css-3.png';
+import javascript from '../helpers/data/graphics/javascript-seeklogo.com.svg';
+import gitHub from '../helpers/data/graphics/Git-Hub.svg';
 
 const pageBody = () => {
   document.querySelector('#app').innerHTML = `
@@ -29,12 +33,10 @@ const pageBody = () => {
   <div class="fullPage" id="technologiesPage">
     <h2>Technologies</h2>
     <ul class="technologies">
-      <li>Javascript<li>
-      <li>CSS</li>
-      <li>Javascript</li>
-      <li>GitHub and git</li>
-      <li>Figma</li>
-      <li>Loom Video</li>
+      <li><img src="${html}"<li>
+      <li><img src="${css}"></li>
+      <li><img src="${javascript}"</li>
+      <li><img src="${gitHub}"</li>
     </ul>
     <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
   </div>
