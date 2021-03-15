@@ -1,11 +1,12 @@
 // basePage.js
 import pageBody from './pageBody';
-import projectsArr from '../helpers/data/projects';
 import showProjects from './showProjects';
+import getProjects from '../helpers/data/projects';
 
 const basePage = () => {
   pageBody();
-  showProjects(projectsArr);
+  console.warn('basePage');
+  getProjects().then((projectsArr) => showProjects(projectsArr));
 };
 
 export default basePage;
