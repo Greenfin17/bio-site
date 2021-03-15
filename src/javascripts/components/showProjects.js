@@ -4,7 +4,9 @@ import projectCard from './projectCard';
 
 const showProjects = (projects) => {
   projects.forEach((project) => {
-    document.querySelector('#projects-page').innerHTML += projectCard(project);
+    if (project.available) {
+      document.querySelector('#projects-page').innerHTML += projectCard(project);
+    }
   });
 };
 
